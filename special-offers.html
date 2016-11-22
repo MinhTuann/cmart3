@@ -6,17 +6,18 @@
   <link rel="icon" type="image/png" href="assets/img/favicon.png">	
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>CMART Vietnam - Home</title>
+  <title>CMART Vietnam - Food's Category</title>
 
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
   <meta name="viewport" content="width=device-width" />
   
   <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
   <link href="bootstrap3/css/font-awesome.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="bootstrap3/css/rotating-card.css">
   
   <link href="assets/css/gsdk.css" rel="stylesheet" />   
   <link href="assets/css/demo.css" rel="stylesheet" /> 
-  <link rel="stylesheet" type="text/css" href="assets/css/#.css">
+
   <!--     Font Awesome     -->
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
@@ -80,18 +81,15 @@
     </div><!--  end navbar -->
   </div> <!-- end menu-dropdown -->
 
-  
-
   <div class="main">
-
-    <div class="container tim-container c" style="max-width:100%; padding-top:100px">
-	    <div class="navbar col-md-2">
+    <div class="container tim-container" style="max-width:100%; padding-top:100px">
+      <div class="navbar col-md-2">
         <form class="navbar-left">
           <a href="index.html">
            <h6>Home</h6><hr>
           </a>
           <a href="foods-category.html">
-            <h6>Food</h6><hr>
+            <h6>Food</h6><hr> 
           </a>
           <a href="index.html">
             <h6>Drink</h6><hr>
@@ -105,110 +103,37 @@
         </form>
       </div>
 
-      <ul class="nav nav-tabs col-md-9">
-        <li class="active">
-          <a href="#BREAKFAST" data-toggle="tab">BREAKFAST</a>
-        </li>
-        <li>
-          <a href="#LUNCH" data-toggle="tab">LUNCH</a>
-        </li>
-        <li>
-          <a href="#SNACK" data-toggle="tab">SNACK</a>
-        </li>
-        <li>
-          <a href="#DINNER" data-toggle="tab">DINNER</a>
-        </li>
-        <li>
-          <a href="#LATENIGHT" data-toggle="tab">LATE NIGHT</a>
-        </li>
-      </ul>
-
-      <div class="tab-content">
-        <div id="BREAKFAST" class="tab-pane fade in active">
-          <!--Breakfast-->
-          <div class="row">
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/drink/hottraffic.png" alt="Hot Traffic" class="img-rounded img-responsive">
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/food/sandwiches.png" alt="Sandwiches" class="img-rounded img-responsive">
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/food/fruit_cup3.png" alt="Fruit" class="img-rounded img-responsive">
+      <div class="special-offers col-md-10">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">
+            <div class="col-md-4 col-sm-6">
+              <div class="card-container">
+                <div class="card">
+                  <div class="front">
+                    <div class="cover">
+                      <img class="img-circle" src="assets/img/food/Pizza.png"/>
+                    </div>
+                    <div class="content">
+                      <div class="main">
+                        <h3 class="name">$5 Large Pizza</h3>
+                      </div>
+                    </div>
+                  </div> <!-- end front panel -->
+                  <div class="back">
+                    <div class="content">
+                      <div class="main">
+                        <h4 class="text-center">$5 Large Pizza</h4>
+                        <p class="text-center">Pizza makes life easier and cheesier. Perfect for the holidays! Pick up a Large Pizza for just $5 at 7-Eleven today.
+                        </p>
+                      </div>
+                    </div>
+                  </div> <!-- end back panel -->
+                </div><!--end card-->
+              </div><!--end card-container-->
             </div>
           </div>
         </div>
-
-        <div id="LUNCH" class="tab-pane fade">
-          <!--Lunch-->
-          <div class="row">
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/drink/Coffee_Home.png" alt="Coffee Home" class="img-rounded img-responsive">
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/food/hot_dog.png" alt="Hot Dog" class="img-rounded img-responsive">
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/food/ceasar_salad.png" alt="Ceasar Salad" class="img-rounded img-responsive">
-            </div>
-          </div>
-        </div>
-
-        <div id="SNACK" class="tab-pane fade">
-          <!--Snack-->
-          <div class="row">
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/food/beef_jerky.png" alt="Beef Jerky" class="img-rounded img-responsive">
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/food/mozz_sticks.png" alt="Mozz Sticks" class="img-rounded img-responsive">
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/drink/big_gulp.png" alt="Big Gulp" class="img-rounded img-responsive">
-            </div>
-          </div>
-        </div>
-
-        <div id="DINNER" class="tab-pane fade">
-          <!--Dinner-->
-          <div class="row">
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/food/tacos_carousel.png" alt="Tacos Carousel" class="img-rounded img-responsive">
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/food/PepPizza_DP.png" alt="Pep Pizza" class="img-rounded img-responsive">
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/drink/big_gulp.png" alt="Big Gulp" class="img-rounded img-responsive">
-            </div>
-          </div>
-        </div>
-
-        <div id="LATENIGHT" class="tab-pane fade">
-          <!--Lunch-->
-          <div class="row">
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/food/icecream_cookie_dough.png" alt="Icecream Cookie Dough" class="img-rounded img-responsive">
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/drink/slurpee50_carousel.png" alt="Slurpee Carousel" class="img-rounded img-responsive">
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-              <img src="assets/img/food/steak_melt.png" alt="Steak Melt" class="img-rounded img-responsive">
-            </div>
-          </div>
-        </div>
-      </div>      
+      </div>
     </div>
     <div class="space"></div>
     <!-- end container -->
